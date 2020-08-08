@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Xylophone</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./script.js"></script>
+</head>
+<body>
+    <div id="wrapper">
+        <div class="piano">
+            <div class="strip-1" onmouseover="playNote1()" onclick="playNote1()"></div>
+            <div class="strip-2" onmouseover="playNote2()" onclick="playNote2()"></div>
+            <div class="strip-3" onmouseover="playNote3()" onclick="playNote3()"></div>
+            <div class="strip-4" onmouseover="playNote4()" onclick="playNote4()"></div>
+            <div class="strip-5" onmouseover="playNote5()" onclick="playNote5()"></div>
+            <div class="strip-6" onmouseover="playNote6()" onclick="playNote6()"></div>
+            <div class="strip-7" onmouseover="playNote7()" onclick="playNote7()"></div>
+        </div>
+    </div>
+
+    <audio id="note1" src="./notes/note1.wav"></audio>
+    <audio id="note2" src="./notes/note2.wav"></audio>
+    <audio id="note3" src="./notes/note3.wav"></audio>
+    <audio id="note4" src="./notes/note4.wav"></audio>
+    <audio id="note5" src="./notes/note5.wav"></audio>
+    <audio id="note6" src="./notes/note6.wav"></audio>
+    <audio id="note7" src="./notes/note7.wav"></audio>
+</body>
+</html>
